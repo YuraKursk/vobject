@@ -221,7 +221,7 @@ class REV(DateOrDateTimeBehavior):
 registerBehavior(REV)
 
 wacky_apple_photo_serialize = True
-REALLY_LARGE = 1E50
+REALLY_LARGE = 74 #  <-- Replaced
 
 
 class Photo(VCardTextBehavior):
